@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+    background-color: #ebebea;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.logo> img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.lists{
+    display:flex ;
+    flex-direction:row ;
+}
+
+.list-item{
+    padding: 10px;
+    margin: 0px 20px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #626262;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+}
+.list-itema{
+    color: #626262;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.list-items{
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.list-itema:hover{
+    color: #edb10b;
+    
+}
+
+#home{
+    /* background-image: url('images/background.jpg'); */
+    min-height: 90vh;
+    height: auto;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ebebea;
+}
+.yellow{
+    color:#edb10b; 
+    
+}
+.heading{
+     font-family: 'League Spartan', sans-serif; 
+     font-weight: 700;
+     margin: 20px 0px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.social{
+   height: 90vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-end;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btns{
+    margin-top: 10px;
+    border: 1px solid #edb10b ;
+    border-radius: 15px;
+    /* background-color: white; */
+    padding: 10px 60px;
+    font-family:'League Spartan', sans-serif ;
+    transition: all 0.3s;
+}
+.btns:hover {
+    background-color:#edb10b ;
+    color: white;
+    scale: 1.1;
+}
+
+.right{
+    background-image: url('https://amman-portfolio.netlify.app/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 10% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills{
+    padding: 50px 0px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill{
+    background-color: #ebebea;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 70px 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.heading-ab{
+    margin: 80px 0px;
+
+    font-weight: 700;
+}
+.skill-pic{
+    width:70px;
+    height: 70px;
+}
+
+
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:60px ;
+}
+.dull{
+    color: grey;
+}
+@media only screen and (max-width: 980px) {
+    .social{
+        height: 20vh;
+         display: flex;
+         flex-direction:row ;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+  }
